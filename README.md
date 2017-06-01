@@ -1,12 +1,12 @@
- .d88888b.  8888888b.  d8b                                 888b    888               888
-d88P" "Y88b 888   Y88b Y8P                                 8888b   888               888
-888     888 888    888                                     88888b  888               888
-888     888 888   d88P 888  .d88b.  888  888 .d8888b       888Y88b 888  .d88b.   .d88888  .d88b.
-888     888 8888888P"  888 d88""88b 888  888 88K           888 Y88b888 d88""88b d88" 888 d8P  Y8b
-888 Y8b 888 888 T88b   888 888  888 888  888 "Y8888b.      888  Y88888 888  888 888  888 88888888
-Y88b.Y8b88P 888  T88b  888 Y88..88P Y88b 888      X88      888   Y8888 Y88..88P Y88b 888 Y8b.
- "Y888888"  888   T88b 888  "Y88P"   "Y88888  88888P'      888    Y888  "Y88P"   "Y88888  "Y8888
-       Y8b
+     .d88888b.  8888888b.  d8b                                 888b    888               888
+    d88P" "Y88b 888   Y88b Y8P                                 8888b   888               888
+    888     888 888    888                                     88888b  888               888
+    888     888 888   d88P 888  .d88b.  888  888 .d8888b       888Y88b 888  .d88b.   .d88888  .d88b.
+    888     888 8888888P"  888 d88""88b 888  888 88K           888 Y88b888 d88""88b d88" 888 d8P  Y8b
+    888 Y8b 888 888 T88b   888 888  888 888  888 "Y8888b.      888  Y88888 888  888 888  888 88888888
+    Y88b.Y8b88P 888  T88b  888 Y88..88P Y88b 888      X88      888   Y8888 Y88..88P Y88b 888 Y8b.
+     "Y888888"  888   T88b 888  "Y88P"   "Y88888  88888P'      888    Y888  "Y88P"   "Y88888  "Y8888
+           Y8b
 
 [QRious Node](https://github.com/neocotic/node-qrious) is a [Node.js](https://nodejs.org) module for QR code generation
 that uses the [QRious Core](https://github.com/neocotic/qrious-core) engine.
@@ -47,6 +47,7 @@ Check out [qrious](https://github.com/neocotic/qrious) if you want to install it
 
 ## Examples
 
+``` javascript
 var express = require('express');
 var QRious = require('node-qrious');
 
@@ -59,6 +60,7 @@ app.get('/qr', function(req, res) {
 });
 
 app.listen(3000);
+```
 
 ## API
 
