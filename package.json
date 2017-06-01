@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "canvas": "^1.6.5",
-    "qrious-core": "^4.0.0-alpha"
+    "qrious-core": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
