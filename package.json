@@ -1,6 +1,6 @@
 {
   "name": "node-qrious",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Node.js module for QR code generation via QRious",
   "homepage": "https://github.com/neocotic/node-qrious",
   "bugs": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/neocotic/node-qrious.git"
   },
   "dependencies": {
-    "canvas": "^1.6.5",
+    "canvas": "^2.5.0",
     "qrious-core": "^4.0.0"
   },
   "devDependencies": {
