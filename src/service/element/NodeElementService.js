@@ -19,8 +19,8 @@
 
 'use strict';
 
-var Canvas = require('canvas');
-var ElementService = require('qrious-core/src/service/element/ElementService');
+const { createCanvas, Image, Canvas } = require('canvas');
+const ElementService = require('qrious-core/src/service/element/ElementService');
 
 /**
  * An implementation of {@link ElementService} intended for use within a Node.js environment but is only supported when
@@ -36,14 +36,14 @@ var NodeElementService = ElementService.extend({
    * @override
    */
   createCanvas: function() {
-    return new Canvas();
+    return createCanvas();
   },
 
   /**
    * @override
    */
   createImage: function() {
-    return new Canvas.Image();
+    return new Image();
   },
 
   /**
@@ -57,7 +57,7 @@ var NodeElementService = ElementService.extend({
    * @override
    */
   isImage: function(element) {
-    return element instanceof Canvas.Image;
+    return element instanceof Image;
   }
 
 });
